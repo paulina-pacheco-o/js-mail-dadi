@@ -13,3 +13,11 @@ for (let i = 0; i < email.length; i++) {
 }
 
 //DADI
+const randomPcNumbers = [];
+const randomUserNumbers = [];
+
+console.log(Math.floor(Math.random() * 6) + 1);
+for (let i = 0; i < 2; i++) {
+  const pcNumber = (Math.random() * 6) + 1;
+  const userNumber = parseInt(prompt(`Inserisci il numero`));
+}
