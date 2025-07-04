@@ -13,21 +13,19 @@ for (let i = 0; i < email.length; i++) {
 }
 
 //DADI
-const randomPcNumbers = [];
-const randomUserNumbers = [];
+const pcNumber = Math.floor(Math.random() * 6) + 1;
+const userNumber = parseInt(prompt(`Inserisci il numero`));
 
-console.log(Math.floor(Math.random() * 6) + 1);
-for (let i = 0; i < 2; i++) {
-  const pcNumber = (Math.random() * 6) + 1;
-  const userNumber = parseInt(prompt(`Inserisci il numero`));
 
-  randomPcNumbers.push(pcNumber);
-  randomUserNumbers.push(userNumber);
 
-  if (pcNumber > userNumber) {
-    console.log(`Ha vinto il computer`);
-  }
-  else if (pcNumber < userNumber) {
-    console.log(`Hai vinto`);
-  }
+
+if (pcNumber > userNumber) {
+  console.log(`Ha vinto il computer`, pcNumber);
 }
+else if (pcNumber < userNumber) {
+  console.log(`Hai vinto`, pcNumber);
+}
+else {
+  console.log(`Pareggio`);
+}
+
