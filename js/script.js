@@ -11,3 +11,5 @@ for (let i = 0; i < email.length; i++) {
     console.log(`Utente non trovato nella lista degli invitati. Riprova.`)
   }
 }
+
+//DADI

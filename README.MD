@@ -36,3 +36,8 @@ MAIL:
 - prompt: utente mette la sua email.
 - controllo se l'email dell'utente fa parte della lista di chi può accedere (primo punto).
 - CICLO FOR: stampare un messaggio appropriato suul'esito del controllo.
+
+DADI:
+- generare un numero random (PC) da 1 a 6.
+- generare un numero random (USER) da 1 a 6.
+- confrontare il numero dell'utente con quello del pc e stabilire il vincitore in base al punteggio più alto.
