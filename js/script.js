@@ -20,4 +20,14 @@ console.log(Math.floor(Math.random() * 6) + 1);
 for (let i = 0; i < 2; i++) {
   const pcNumber = (Math.random() * 6) + 1;
   const userNumber = parseInt(prompt(`Inserisci il numero`));
+
+  randomPcNumbers.push(pcNumber);
+  randomUserNumbers.push(userNumber);
+
+  if (pcNumber > userNumber) {
+    console.log(`Ha vinto il computer`);
+  }
+  else if (pcNumber < userNumber) {
+    console.log(`Hai vinto`);
+  }
 }
