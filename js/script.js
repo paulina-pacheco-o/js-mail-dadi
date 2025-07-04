@@ -7,4 +7,7 @@ for (let i = 0; i < email.length; i++) {
   if (email[i] === emailUser) {
     console.log(`Utente trovato nella lista degli invitati`);
   }
+  else if (email[i] != emailUser) {
+    console.log(`Utente non trovato nella lista degli invitati. Riprova.`)
+  }
 }
